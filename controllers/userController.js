@@ -1,6 +1,8 @@
 // Importamos el modelo de Mongo
 
 const User = require("../models/User");
+const bcryptService = require("../services/bcryptService");
+
 
 // Funcion para obtener todos los Usuarios.
 
